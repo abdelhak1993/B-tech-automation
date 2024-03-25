@@ -73,7 +73,6 @@ export class SectionPage {
         cy.get('.MuiButton-contained').click()
         cy.wait(500)
     }
-
     assertionAjoutVide(){
         //cy.get('.MuiSnackbar-root > .MuiPaper-root > .MuiAlert-message')
         cy.get('.MuiAlert-message')
